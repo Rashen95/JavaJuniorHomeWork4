@@ -9,7 +9,7 @@ services:
             POSTGRES_PASSWORD: root
             POSTGRES_DB: rashen-db
         volumes: 
-            - /home/artem/Desktop/MyDB
+            - ./data:/var/lib/postgresql/data/
         ports:
             - "5432:5432"
     
